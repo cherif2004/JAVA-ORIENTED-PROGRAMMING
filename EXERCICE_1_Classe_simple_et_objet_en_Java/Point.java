@@ -1,8 +1,8 @@
 package JAVA_ORIENTED_PROGRAMMING.EXERCICE_1_Classe_simple_et_objet_en_Java ;
 
 public class Point {
-    private int x ;
-    private int y ;
+    protected int x ;
+    protected int y ;
 
     public Point (int x , int y){
         this.x  = x ;
@@ -29,7 +29,14 @@ public class Point {
 
     // 
     public void afficher(){
-        System.out.println("je suis un point de coordonnées " + x + "et" +y);
+        System.out.println("je suis un point de coordonnées " + x +  " et " +y);
+    }
+
+    public static void main(String[] args) {
+        Point point = new Point();
+        point.initialiser(2, 3);
+        point.deplacer(1, -1);
+        point.afficher();
     }
 
 }
