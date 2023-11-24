@@ -33,10 +33,33 @@ import JAVA_ORIENTED_PROGRAMMING.EXERCICE_2_HERITAGE.* ;
  }
   
  public static  void main(String[] args){
+
+   //Question 1
     Pointcol pointcol = new Pointcol() ;
     pointcol.initialiser(5, 9);  // Initialise les coordonnées x et y à 5 et 9
     pointcol.colorer((byte) 0);  // Couleur
+
+    System.out.println("reponse question 1");
     pointcol.afficher(); // Affiche les coordonnées et la couleur du point
+
+// Question 2
+
+        System.out.println("\n");
+            System.out.println("reponse question 2");
+                    System.out.println("");
+
+
+
+   Point[] tableau = new Point[3] ;
+       tableau[0] = new Point() ;
+       tableau[1] = new Pointcol();
+       tableau[2] = new Point();
+
+      
+        for (Point point : tableau) {
+            point.afficher();
+        }
+    }
  }
 
-}
+
