@@ -1,5 +1,5 @@
 # JAVA-ORIENTED-PROGRAMMING :
-* that repository content  implementation of differents concepts of java oriented programming
+* this github repository content  implementation of differents concepts of java oriented programming
  
 
 # <p align="center">Université de Yaoundé I</p>
