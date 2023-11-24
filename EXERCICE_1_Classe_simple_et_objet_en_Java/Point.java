@@ -1,3 +1,5 @@
+package JAVA_ORIENTED_PROGRAMMING.EXERCICE_1_Classe_simple_et_objet_en_Java ;
+
 public class Point {
     private int x ;
     private int y ;
@@ -25,7 +27,7 @@ public class Point {
     }
 
 
-    // pour  afficher  un  point  ; 
+    // 
     public void afficher(){
         System.out.println("je suis un point de coordonnées " + x + "et" +y);
     }
