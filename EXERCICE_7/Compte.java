@@ -1,9 +1,9 @@
-package JAVA_ORIENTED_PROGRAMMING.EXERCICE7;
+package JAVA_ORIENTED_PROGRAMMING.EXERCICE_7;
 
 public class Compte {
-    private String numero ;
-    private String proprietaire ;
-    private int solde ;
+    protected String numero ;
+    protected String proprietaire ;
+    protected int solde ;
 
     public Compte(String numero , String proprietaire , int solde){
         this.numero = numero ;
@@ -26,19 +26,6 @@ public void Retirer(int montant){
 
 }
 
-public String getNumero(){
-    return numero ;
-
-}
-
-public String getProprietaire(){
-    return proprietaire ;
-
-}
-
-public int getsolde(){
-    return solde ;
-}
 
 
 }

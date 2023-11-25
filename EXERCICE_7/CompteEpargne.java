@@ -1,6 +1,6 @@
 // La classe CompteEpargne hérite de la classe Compte et ajoute un nouvel attribut tauxInteret (type double). Elle possède un constructeur pour initialiser tous les attributs, ainsi qu'une méthode appliquerInteret qui calcule l'intérêt en fonction du solde actuel et du taux d'intérêt, puis dépose le montant de l'intérêt sur le compte
 
-package JAVA_ORIENTED_PROGRAMMING.EXERCICE7;
+package JAVA_ORIENTED_PROGRAMMING.EXERCICE_7;
 
 public class CompteEpargne extends Compte {
     private double tauxInteret ;
@@ -10,7 +10,7 @@ public class CompteEpargne extends Compte {
     }
 
      public void appliquerInteret(){
-        double interet = getsolde() * tauxInteret ;
+        double interet = solde * tauxInteret ;
         Deposer((int) interet) ;
      }
     
